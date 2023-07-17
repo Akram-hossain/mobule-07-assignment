@@ -1,0 +1,171 @@
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  
+  ol,
+  ul,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  a,
+  p,
+  i,
+  button,
+  strong,
+  u,
+  sub,
+  sup,
+  span,
+  textarea,
+  table tr td,
+  select,
+  input {
+    padding: 0;
+    margin: 0;
+  }
+  
+  select:focus-within,
+  textarea:focus-within,
+  input:focus-within,
+  .form-control:focus-within,
+  button:focus-within {
+    box-shadow: none !important;
+  }
+  
+  a,
+  a:hover {
+    color: #000;
+    text-decoration: none;
+  }
+  
+  ol,
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  } 
+  
+  hr {
+    border: none;
+    display: block;
+    width: 100%;
+    height: 1px;
+  }
+  
+  h1,
+  h2 {
+    font-size: 3.5rem;
+    line-height: 100%;
+  }
+  
+  h3,
+  h4 {
+    font-size: 2.6rem;
+    line-height: 100%;
+  }
+  
+  h5,
+  h6 {
+    font-size: 2rem;
+    line-height: 100%;
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 110%;
+  }
+  
+  body {
+    background-color: #fff;
+    font-family: "Noto Sans", sans-serif;
+    overflow-x: hidden;
+  }
+
+.headerSection{
+    background-color: aliceblue;
+    padding-top: 1rem;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 3rem;
+    line-height: 100%;
+}
+.pa-y4{
+    padding: 2rem 0;
+}
+
+input{
+    width: 100%;
+    display: block;
+    border: 1px solid #ccc;
+    height: 3rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: .5rem;
+    font-size: 1rem;
+}
+
+button{
+    padding: .5rem 2rem;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    transition: all linear .2s;
+    border-radius: 10px;
+}
+
+button:hover{
+    background-color: blanchedalmond;
+    color: #000;
+}
+
+p{
+    margin-top: 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    padding: .5rem 1rem;
+    border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h6{
+    margin-top: 2rem;
+    font-size: 1.2rem; 
+}
+
+h5.message{
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: red;
+}
+
+.FooterSection{
+    background-color: blueviolet;
+    padding: 1.2rem 0; 
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+h5{ 
+    font-size: 1.5rem;
+    color: #fff;
+}
+
